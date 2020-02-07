@@ -247,7 +247,7 @@ endif
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
 # selinux
-include vendor/omni/sepolicy/sepolicy.mk
+#include vendor/omni/sepolicy/sepolicy.mk
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(BOARD_PATH)/sepolicy/public
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(BOARD_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
